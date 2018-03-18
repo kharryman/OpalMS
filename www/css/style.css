@@ -1,0 +1,223 @@
+/* Empty. Add your own CSS if you like */
+.opal-bg {
+  background-color: #2980b9;
+}
+
+.login-card {
+  border-radius: 2%;
+  margin-top: 10%;
+  min-height: 50%;
+  -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.38);
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.38);
+}
+
+.login-card h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 2em 0;
+  padding: 0 0 0 0;
+}
+
+
+.login-heading {
+  color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  word-wrap: break-word;
+  text-align: center;
+  padding: 1em 0.5em 0 0.5em;
+}
+
+.unverified-vehicle {
+  background-color: rgba(241,196,15, 0.5);
+}
+
+.verified-vehicle {
+  background-color: rgba(46,204,113, 0.5);
+}
+
+
+.verified-vehicle h3 {
+  color: #FFF;
+}
+
+.verified-vehicle i {
+  color: #FFF;
+}
+
+.declined-vehicle {
+  background-color: rgba(231,76,60, 0.5);
+}
+
+.vehicle-photo-list {
+  width: 100%
+  height: auto;
+  margin: 0;
+  padding 0;
+  border:0;
+}
+
+.vehicle-photo-row {
+  width: 100%
+  height: auto;
+  margin: 0;
+  padding 0;
+  border:0;
+}
+
+.vehicle-photo-image {
+  margin: 1em;
+  padding: 0;
+  border: 1px solid black;
+}
+
+/*
+#vehicle-photo-image-show{
+  width: 100px;
+  height: 100px;
+}
+*/
+
+/*
+.vehicleDamagePopup{
+  .popup{
+      width: 100%;
+      height: 100;
+  }
+}
+*/
+
+/*
+#vehicle_image_canvas{
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+  padding: 0;
+}
+*/
+
+.declined-radio{
+   position: absolute;
+   left: 50px;
+}
+
+.cavas-item{
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  margin: 0;
+  padding: 0;
+}
+
+
+#vehicle-notes-textarea, #dispatch-message-textarea, #decline_comment{
+    width:100%;
+    max-width:100%;
+}
+
+.button-balanced, .button-energized {
+  color: #000 !important;
+}
+
+.eta_title_row{
+   width: 100%;
+   vertical-align: middle;
+   height:20px;
+}
+
+.eta_button_row{
+   width: 100%;
+   height:50px;
+}
+
+.eta_row{
+   width: 100%;
+   vertical-align: middle;
+   height:70px;
+}
+
+.eta_title_cell{
+  width: 16%;
+  text-align: center;
+  vertical-align: middle;
+  height:20px;
+  font-size: 16pt;
+}
+
+.eta_button_cell{
+  width: 16%;
+  text-align: center;
+  height:70px;
+}
+
+.eta_button_cell_small{
+  width: 10%;
+  text-align: center;
+  height:70px;
+}
+
+.eta_cell{
+  width: 16%;
+  text-align: center;
+  vertical-align: middle;
+  height:70px;
+  font-size: 20pt;
+}
+
+.eta_cell_small{
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+  height:70px;
+  font-size: 20pt;
+}
+
+.eta_buttons{
+
+   width: 100%;
+   height:70px;
+}
+
+.valid-date{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76,231,60, 0.5);
+}
+
+.invalid-date {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(231,76,60, 0.5);
+}
+
+table, th, td, tr{
+  border: 0;
+  margin: 0px 5px 0px;
+  padding: 0px 5px 0px;
+}
+
+.pad0{
+  padding:0px 5px 0px;
+  margin:0px 5px 0px;
+}
+
+.text10{
+  font-size: 10pt;
+}
+
+.confirm_background{
+  background-color: rgba(0,255,0, 0.5);
+   padding: 10px 5px 10px
+}
+
+.cancel_background{
+  background-color: rgba(240,128,128, 0.5);
+   padding: 10px 5px 10px
+}
+
+.popup-container .popup{
+  width: 520px;
+}

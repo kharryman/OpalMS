@@ -1,0 +1,41 @@
+<ion-view view-title="Authentication">
+  <ion-content class="padding cvat-bg">
+    <img src="img/big_emblem.jpg" width="100%" alt="CVAT EMBLEM"></img>
+    <div class="item login-card">
+      <div class="item-text-wrap">
+        <p style="text-align:center;">
+          <strong style="text-align:center;font-size:16pt;">Authenticate User:</strong><br />
+          <strong>{{driver.username}}</strong>
+        </p>
+      </div>
+      <!--
+      <label class="item item-input">
+      First Name:&nbsp;&nbsp;<input id="first_name_pin" type="text" placeholder='Enter first name' ng-model="first_name_pin">
+    </label>
+    <label class="item item-input">
+    Last Name:&nbsp;&nbsp;<input id="last_name_pin" type="text" placeholder='Enter last name' ng-model="last_name_pin">
+  </label>
+-->
+<ion-list radio-group>
+  <label><ion-radio ng-disabled="loginAuth.no_mobile" ng-model="loginAuth.get_pin_method" value="mobile"><span ng-hide="loginAuth.no_mobile">SEND BY MOBILE NUMBER?</span><span ng-show="loginAuth.no_mobile">NO MOBILE NUMBER EXISTS</span></ion-radio></label>
+  <!--
+  <label><ion-radio ng-disabled="loginAuth.no_email" ng-model="loginAuth.get_pin_method" value="email"><span ng-hide="loginAuth.no_email">SEND BY EMAIL?</span><span ng-show="loginAuth.no_email">NO EMAIL EXISTS</span></ion-radio></label>
+  -->
+</ion-list>
+<button class="button button-full button-positive" ng-click="getPIN()" ng-disabled="!can_get_pin">
+  Get PIN
+</button>
+<div class="card">
+  <label class="item item-input">
+    PIN:&nbsp;&nbsp;<input id="pin_input" type="number" max="999999" placeholder='Please enter sent PIN here' ng-model="loginAuth.pin_input">
+  </label>
+</div>
+<button class="button button-full button-positive" ng-click="verifyPIN()" ng-disabled="!can_submit_pin">
+  Verify PIN
+</button>
+<button class="button button-full button-positive" ng-click="goLogin()">
+  Back to Login
+</button>
+</div>
+</ion-content>
+</ion-view>

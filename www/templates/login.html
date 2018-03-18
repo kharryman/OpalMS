@@ -1,0 +1,22 @@
+<ion-view view-title="Opal Music Store">
+  <ion-content class="padding opal-bg">
+    <div class="row">
+      <h3 class="col col-85" style='color:white; text-align:center;'> The Opal Music Store Welcomes You! </h3>
+      <img class="col col-10" height="60px" style='float:right;' src='img/opal_icon.png'></img>
+    </div>
+    <div class="item login-card">
+      <div><strong ng-click="show_login=true;">Login </strong> | <strong ng-click="show_login=false;">Sign Up</strong></div>
+      <form ng-show="show_login == true">
+        <label class="item item-input">
+          <input width="100%" id="email_login" type="text" placeholder='Enter email' ng-model="email_login">
+        </label>
+        <label class="item item-input">
+          <input id="password_login" type="password" placeholder='Enter password' ng-model="password_login">
+        </label>
+        <button class="button button-full button-positive" ng-click="login(email_login, password_login);">
+          Login
+        </button>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>

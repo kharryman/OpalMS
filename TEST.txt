@@ -1,0 +1,95 @@
+CVAT ANDROID APP TESTS ON BROWSER....:
+ASSIGNED:
+  View BOL Details:
+        Pickup and Destination checks off, Vin checks off.
+     Vehicle Details:
+        Vin checks off. Add notes checks off. Vehicle Photos checked..
+           Decline Vehicle:
+              Message checks off, popup checks off, No reason alert checks off, Going back to assigned tab
+              X Post vehicle problem api error...
+ACCEPTED:
+ View BOL Details:
+      Pickup and Destination checks off, Vin checks off.
+   Vehicle Details:
+      Vin checks off. Add notes checks off. Vehicle Photos checked..
+         Decline Vehicle:
+            Message checks off, popup checks off, No reason alert checks off, Going back to assigned tab
+            X Post vehicle problem api error...
+   Start Pickup:Proximity check checks off(from pickup address), dialog checks off, Show override dialog checks off, show current address checks off, alert type override reason checks off,
+
+PICKUP:
+  View BOL Details:
+     Pickup and Destination checks off, Vin checks off.
+     Vehicle Details: add notes checks off,
+  Vehicle Details:
+     Vin checks off. Add notes checks off. Vehicle Photos checked..
+        Decline Vehicle:
+           Message checks off, popup checks off, No reason alert checks off, Going back to assigned tab
+           X Post vehicle problem api error...
+    Show Notes checks off
+    Cancel BOL: dialog checks off, check decline reason checks off, type decline comment checks off, decline bol checks Off, stay on accepted tab checks off...
+       X problems/bol<bol_id> Response nil error...
+     Go In Transit:Verification Success confirm dialog checks off, get and show eta dialog checks off, show date picker checks off, show confirmed later date checks off, show later time or else fail checks off, go in transit checks off...
+INTRANSIT:
+  View BOL Details:
+     Pickup and Destination checks off
+        Vehicle Details: checks off
+  Vehicle Details:   Vin checks off. Add notes checks off.
+  Show Notes checks off
+  Arrived Delivery: proximity check popup to destination checks off, override popup checks off, current address checks off, alert for override reason checks off, change to arrived delivery checks off...
+ARRIVED DELIVERY:
+  Bol details Pickup and Destination checks off, Actions click checks off,
+      Vehicle Details: checks off
+  Vehicle Details: Vin checks off. Add notes checks off.
+  Show/Add Notes checks off
+  Sign BOL: takes to sign Bol tab checks off.., signature pad not moving checks off.
+Bol Sign
+   Clear signature checks off..
+   Confirm Delivery: Alert if not Signed checks off,
+DRIVER PROFILE:
+
+
+CVAT ANDROID APP TESTS ON MY ANDROID PHONE....:
+ASSIGNED:
+1) View BOL Details:
+        Pickup and Destination checks off, Vin checks off.
+     Vehicle Details:
+        Vin checks off. Add notes checks off.
+        X: Vehicle Photos should not be there....
+           Decline Vehicle:
+              Message checks off, popup checks off, No reason alert checks off
+              X Post vehicle problem api error...
+              X splice DetCtrl line 84 error....
+ACCEPTED:
+
+PICKUP:
+
+INTRANSIT:
+
+ARRIVED DELIVERY:
+
+DRIVER PROFILE:
+
+
+
+
+CVAT ANDROID APP TESTS ON IONIC VIEW???....:
+ASSIGNED:
+1) View BOL Details:
+        Pickup and Destination checks off, Vin checks off.
+     Vehicle Details:
+        Vin checks off. Add notes checks off.
+        X: Vehicle Photos should not be there....
+           Decline Vehicle:
+              Message checks off, popup checks off, No reason alert checks off
+              X Post vehicle problem api error...
+              X splice DetCtrl line 84 error....
+ACCEPTED:
+
+PICKUP:
+
+INTRANSIT:
+
+ARRIVED DELIVERY:
+
+DRIVER PROFILE:

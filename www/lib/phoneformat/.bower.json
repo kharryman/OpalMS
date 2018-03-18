@@ -1,0 +1,38 @@
+{
+  "name": "phoneformat",
+  "main": "./dist/phone-format.js",
+  "version": "1.0.6",
+  "homepage": "https://github.com/albeebe/phoneformat.js",
+  "authors": [
+    "Al Cheetah",
+    "Matti Salokangas <matti.salokangas@gmail.com>"
+  ],
+  "description": "Javascript phone number formatter based on libphonenumber.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "PhoneFormatter",
+    "PhoneValidator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.6",
+    "commit": "6adb62e70153d9a5edb95f42deba144d6f914f37"
+  },
+  "_source": "https://github.com/albeebe/phoneformat.js.git",
+  "_target": "^1.0.6",
+  "_originalSource": "phoneformat.js",
+  "_direct": true
+}

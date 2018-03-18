@@ -1,0 +1,30 @@
+
+  {
+    "name": "CVAT",
+    "app_id": "767bfefd",
+    "type": "ionic1",
+    "integrations": {
+      "gulp": {},
+      "cordova": {}
+    },
+    "watchPatterns": [
+      "scss/**/*",
+      "www/**/*",
+      "!www/lib/**/*",
+      "!www/**/*.map"
+    ],
+    "proxies": [
+      {
+        "path": "/CVAT_API",
+        "proxyUrl": "http://api.staging.centralvalleyautotrans.com"
+      },
+      {
+        "path": "/LFQ",
+        "proxyUrl": "http://learnfactsquick.com"
+      },
+      {
+        "path": "/AMAZON_S3",
+        "proxyUrl": "https://cvat-images-west2.s3.amazonaws.com"
+      }
+    ]
+  }

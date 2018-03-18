@@ -1,0 +1,38 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive" ng-controller="TabCtrl">
+
+  <!-- Assigned BOLS Tab -->
+  <ion-tab title="Assigned" icon-off="ion-edit" icon-on="ion-edit" ng-click="goState('ASSIGNED', 'tab.assigned');">
+    <ion-nav-view name="tab-assigned"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Accepted BOLS Tab -->
+  <ion-tab title="Accepted" icon-off="ion-ios-checkmark-outline" icon-on="ion-checkmark-circled" ng-click="goState('ACCEPTED','tab.accepted');">
+    <ion-nav-view name="tab-accepted"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Pickup BOLS Tab -->
+  <ion-tab title="Pickup" icon-off="fa fa-handshake-o" icon-on="fa fa-handshake-o" ng-click="goState('PICKUP','tab.arrived-pickup');">
+    <ion-nav-view name="tab-arrived-pickup"></ion-nav-view>
+  </ion-tab>
+
+  <!-- On Truck Tab -->
+  <ion-tab title="In Transit" icon-off="fa fa-truck" icon-on="fa fa-truck" ng-click="goState('TRANSIT','tab.intransit');">
+    <ion-nav-view name="tab-intransit"></ion-nav-view>
+  </ion-tab>
+
+  <!-- On Truck Tab -->
+  <ion-tab title="Arrived Delivery" icon-off="fa fa-car" icon-on="fa fa-car" ng-click="goState('DELIVERED','tab.arrived-delivery');">
+    <ion-nav-view name="tab-arrived-delivery"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Logout -->
+  <ion-tab title="Driver Profile" icon-off="ion-person" icon-on="ion-person" ui-sref='tab.driver-profile'">
+    <ion-nav-view name="tab-driver-profile"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

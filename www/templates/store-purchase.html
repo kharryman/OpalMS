@@ -1,0 +1,19 @@
+<ion-view view-title="Opal Music Store">
+  <ion-content class="padding opal-bg">
+    <div class="row">
+      <h3 class="col col-85" style='color:white; text-align:center;'> The Opal Music Store Welcomes You! </h3>
+      <img class="col col-10" height="60px" style='float:right;' src='img/opal_icon.png'></img>
+    </div>
+    <ion-list radio-group>
+      <ion-radio ng-model="store.reason" value="buy-instruments">Buy Instruments?</ion-radio>
+      <ion-radio ng-model="store.reason" value="rent-instruments">Rent Instruments?</ion-radio>
+      <ion-radio ng-model="store.reason" value="take-classes">Classes?</ion-radio>
+    </ion-list>
+    <button class="button button-full button-positive" ng-click="goState();">
+      GO
+    </button>
+    <button class="button button-full button-positive" ng-click="logout();">
+      Logout
+    </button>
+  </ion-content>
+</ion-view>
