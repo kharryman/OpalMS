@@ -1,4 +1,4 @@
-<ion-view view-title="Opal Music Store">
+<ion-view view-title="Store | {{root.user}}">
   <ion-content class="padding opal-bg">
     <div class="row">
       <h3 class="col col-85" style='color:white; text-align:center;'> The Opal Music Store Welcomes You! </h3>
@@ -9,10 +9,10 @@
       <ion-radio ng-model="store.reason" value="rent-instruments">Rent Instruments?</ion-radio>
       <ion-radio ng-model="store.reason" value="take-classes">Classes?</ion-radio>
     </ion-list>
-    <button class="button button-full button-positive" ng-click="goState();">
+    <button class="button button-full button-positive" ng-click="goState(store.reason);">
       GO
     </button>
-    <button class="button button-full button-positive" ng-click="logout();">
+    <button class="button button-full button-positive" ng-click="root.logout();">
       Logout
     </button>
   </ion-content>

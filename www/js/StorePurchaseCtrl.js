@@ -6,7 +6,7 @@ angular.module('opal.controllers.store-purchase', [])
 .controller('StorePurchaseCtrl', function($scope, $rootScope, $state, Popup, Progress, $state, $timeout) {
   console.log("INITIATING PARAMETERS?...");
   $scope.store = {};
-  $scope.store.reason="buy";
+  $scope.store.reason="buy-instruments";
   var init = function() {
     Progress.hide();
   };

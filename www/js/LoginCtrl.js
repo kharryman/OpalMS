@@ -10,6 +10,7 @@ angular.module('opal.controllers.login', [])
   $rootScope.toState = "";
   $scope.email_login = "";
   $scope.password_login = "";
+  $rootScope.root = {};
 
 
   var init = function() {
@@ -29,14 +30,17 @@ angular.module('opal.controllers.login', [])
 
 $scope.login = function(email, password){
   console.log("loggging in....");
-  OM.login(email,password);
+  //OM.login(email,password);
+  var user = email.split("@")[0];
+  $rootScope.root.user = user;
+  $state.go("store-purchase", {user:$rootScope.root.user});
 }
 
 $scope.forgotPassword = function(email){
    $state.go("forgotPassword", {email:email});
 }
 
-$rootScope.logout = function(){
+$rootScope.root.logout = function(){
   $state.go('login', {}, {reload:true});
 }
 

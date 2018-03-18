@@ -1,0 +1,21 @@
+<ion-view view-title="Rent Instruments | {{root.user}}">
+  <ion-content class="padding opal-bg">
+    <div class="row">
+      <h3 class="col col-85 white-center"> The Opal Music Store Welcomes You! </h3>
+      <img class="col col-10" height="60px" style='float:right;' src='img/opal_icon.png'></img>
+    </div>
+    <ion-list radio-group>
+      <ion-radio ng-model="rent.selected" value="rent-percussion">Rent Percussion Instruments?</ion-radio>
+      <ion-radio ng-model="rent.selected" value="rent-wind">Rent Wind Instruments?</ion-radio>
+      <ion-radio ng-model="rent.selected" value="rent-string">Rent String Instruments?</ion-radio>
+      <ion-radio ng-model="rent.selected" value="rent-brass">Rent Brass Instruments?</ion-radio>
+    </ion-list>
+    <button class="button button-full button-positive" ng-click="goRent(rent.selected);">
+      Go Rent
+    </button>
+    <button class="button button-full button-positive" ng-click="root.logout();">
+      Logout
+    </button>
+  </div>
+</ion-content>
+</ion-view>

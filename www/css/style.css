@@ -3,6 +3,11 @@
   background-color: #2980b9;
 }
 
+.white-center{
+   text-align:center;
+    color:white; 
+}
+
 .login-card {
   border-radius: 2%;
   margin-top: 10%;
