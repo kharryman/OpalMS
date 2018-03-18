@@ -1,6 +1,6 @@
 {
-  "name": "CVAT",
-  "version": "1.0.47",
+  "name": "Opal Music Store",
+  "version": "0.0.1",
   "description": "An Ionic project",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -13,7 +13,7 @@
     "@ionic-native/core": "^4.2.0",
     "@ionic-native/screen-orientation": "^4.5.2",
     "cordova-android": "^6.2.0",
-    "cordova-ios": "^4.5.0",
+    "cordova-ios": "^4.5.4",
     "cordova-plugin-actionsheet": "^2.3.3",
     "cordova-plugin-add-swift-support": "^1.7.1",
     "cordova-plugin-compat": "^1.2.0",
